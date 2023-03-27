@@ -1,6 +1,6 @@
 // this program prompts user to input grade and returns letter grade
 function gradeGenerator(){
-    let grade = window.prompt("What is your grade?"); 
+    let grade;
     if (grade >= 79){
         console.log('A');
         alert('A')
@@ -18,3 +18,6 @@ function gradeGenerator(){
         console.log("E");
     }
 }
+gradeGenerator(60)
+
+
